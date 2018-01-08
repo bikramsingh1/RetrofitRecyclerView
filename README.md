@@ -19,3 +19,17 @@ How you can Insert and Fetch the data from server using Retrofit and RecyclerVie
 **Object –** Web API response needs to be in Json object.
 
 **Collections –** Web API response needs to be in a String Format. Image Loading
+
+**Must add these dependencies in build.gradle(Module app)**
+
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    
+    compile 'com.google.code.gson:gson:2.6.2'
+    
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    
+    implementation 'com.android.support:design:26.1.0'
